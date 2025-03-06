@@ -1,0 +1,46 @@
+/* static/css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+h1 {
+    color: #333;
+}
+.header {
+    margin-bottom: 20px;
+}
+.header p {
+    margin: 10px 0;
+}
+.search-form {
+    margin: 20px 0;
+}
+.search-form input {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+}
+.search-form button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.search-form button:hover {
+    background-color: #555;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery a {
+    text-decoration: none; /* 移除連結下劃線 */
+}
+.gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
